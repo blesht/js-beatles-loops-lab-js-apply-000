@@ -7,5 +7,6 @@ for (let i =0; i<(musicians.length);i++) {
 }
 
 function johnLennonFacts(facts) {
+  while (facts.length > 0)
   
 }
