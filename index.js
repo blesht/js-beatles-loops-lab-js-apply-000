@@ -14,7 +14,7 @@ for (let i =0; i<(musicians.length);i++) {
 function johnLennonFacts(facts) {
   let arraycounter = 0
   let factsEx = []
-  while (facts.length > arraycounter) {
+  while (facts.length >= arraycounter) {
   factsEx.push(`${facts[arraycounter]}!!!`)
   arraycounter += 1
   return factsEx
