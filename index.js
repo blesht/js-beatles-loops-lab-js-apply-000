@@ -17,7 +17,7 @@ function johnLennonFacts(facts) {
   while (facts.length > arraycounter) {
   factsEx.push(` ${facts[arraycounter]}!!!`)
   arraycounter += 1
-  console.log(factsEx)
+  return factsEx
   
 }
 }
