@@ -16,7 +16,7 @@ function johnLennonFacts(facts) {
   let arraycounter = 0
   let factsEx = []
   while (facts.length > arraycounter) {
-  factsEx.push(`${facts[arraycounter]}!!!`)
+  factsEx.push(` ${facts[arraycounter]}!!!`)
   arraycounter += 1
   console.log(factsEx)
   
