@@ -7,6 +7,9 @@ for (let i =0; i<(musicians.length);i++) {
 }
 
 function johnLennonFacts(facts) {
-  while (facts.length > 0)
+  let arraycounter = 0
+  let factsEx = []
+  while (facts.length > arraycounter)
+  
   
 }
