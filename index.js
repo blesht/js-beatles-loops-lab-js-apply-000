@@ -6,8 +6,10 @@ const instruments = ["Guitar", "Bass Guitar", "Lead Guitar", "Drums"];
 function theBeatlesPlay(musicians, instruments) {
 
 for (let i =0; i<(musicians.length);i++) {
-  console.log(`${musicians[i]} plays ${instruments[i]}`)
+  musicianPlusInstrument = []
+  musicianPlusInstrument.push(`${musicians[i]} plays ${instruments[i]}`)
   }
+  console.log(musicianPlusInstrument)
 }
 
 function johnLennonFacts(facts) {
