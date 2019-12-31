@@ -8,7 +8,7 @@ for (let i =0; i<(musicians.length);i++) {
  
   musicianPlusInstrument.push(` ${musicians[i]} plays ${instruments[i]}`)
   }
-  console.log(musicianPlusInstrument)
+  return musicianPlusInstrument
 }
 
 function johnLennonFacts(facts) {
