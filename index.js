@@ -1,4 +1,4 @@
 // add solution here
 function theBeatlesPlay(musicians, instrucments) {}
 let musicians = []
-for (let i =0; i<)
+for (let i =0; i<(musicians.length +1));i++)
