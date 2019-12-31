@@ -14,12 +14,12 @@ for (let i =0; i<(musicians.length);i++) {
 function johnLennonFacts(facts) {
   let arraycounter = 0
   let factsEx = []
-  while (facts.length >= arraycounter) {
-  factsEx.push(`${facts[arraycounter]}!!!`)
-  arraycounter += 1
+  do {factsEx.push(`${facts[arraycounter]}!!!`)
+	arraycounter+=1}
+  while (facts.length > arraycounter) 
+  
   return factsEx
   
-}
 }
 
 function iLoveTheBeatles(num) {
